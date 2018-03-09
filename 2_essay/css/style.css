@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  width: 820px;
+  margin:auto;
+  margin-top:200px;
+  font-family: Verdana;
+  color: white;
+}
+
+p {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  border: 10px dashed white;
+  background-color: lightblue;
+  font-size: 68px;
+  padding: 30px;
+  margin: 0px;
+}
+
+h2 {
+  font family: courier;
+  text-transform: uppercase;
+  text-alighn: center;
+
+}
