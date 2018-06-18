@@ -1,47 +1,29 @@
+html {
+  border-top-left-radius: 1px;
+  border-top-style: double;
+  border-width: 100px;
+  border-color: white;
+  margin:auto;
+
+}
+
+
 body {
   background-color: white;
-
-  font-family: futura;
-  color: red;
-}
-
-.main-text {
   width: 820px;
-  margin:auto;
-  margin-top:200px;
-}
-
-p {
-  font-family: futura;
+  font-family: Verdana;
   color: red;
-}
-
-h1 {
-  text-align: center;
-  border: 10px dashed red;
-  background-color: cyan;
-  font-size: 68px;
-  padding: 30px;
-  margin: 0px;
-
-}
-
-h2 {
-  font family: courier;
-  text-transform: uppercase;
-  text-align: center;
-
 }
 
 .nav {
   font-size:20px;
   font-family: Verdana;
   background-color: white;
-  position: fixed;
-  left:0px;
-  top:0px;
-  margin-top:150px;
+  float:left;
+}
 
+.filternav {
+  margin:100%;
 }
 
 ul {
@@ -59,10 +41,9 @@ li a{
   background-color: black;
   color: white;
   padding: 20px;
-  margin-top: 10px;
-  margin-left: 20px;
   border-style: solid;
   border-color: white;
+  border-width: 10px;
   font-family: futura;
   font-weight: bolder;
   text-align: center;
@@ -77,4 +58,38 @@ li a:hover {
   font-size: 100px;
   width: 100px;
   height: 100px;
+}
+
+
+
+p {
+  font-family: Arial;
+}
+
+
+
+h1 {
+  text-align: left;
+  font-size: 68px;
+  padding: 30px;
+  margin: 0px;
+  color: red;
+}
+
+
+
+h2 {
+  text-align: left;
+  font-size: 68px;
+  padding: 30px;
+  margin: 0px;
+  color: cyan;
+  float:left;
+
+}
+
+.floatme {
+  float: right;
+  width: 0px;
+
 }

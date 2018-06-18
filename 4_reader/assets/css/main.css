@@ -1,8 +1,5 @@
 body {
-  background-color: white;
-
-  font-family: futura;
-  color: red;
+color: red;
 }
 
 .main-text {
@@ -11,8 +8,63 @@ body {
   margin-top:200px;
 }
 
+.article-nav {
+    background-color: red;
+    margin-left:35%;
+    position:absolute;
+    font-family: verdana;
+    font-weight: bolder;
+    color:cyan;
+}
+
+.article-nav:hover {
+  color:White;
+}
+
+
+.rollover{
+
+  color: cyan;
+}
+
+
+.rollover:hover{
+  color: red;
+  background-color: black;
+}
+
+.rollover:active{
+  opacity:100%;
+}
+
+.change{
+  filter:invert(1);
+  pointer-events:none;
+}
+
+.change.showme{
+  filter:invert(0);
+}
+
+.invertImage {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  transition-duration:5s;
+  opacity:1;
+
+}
+
+img {
+  height: 500px;
+  position: absolute;
+  margin-right:1000px;
+  z-index:-1;
+  opacity:0;
+}
+
+
 p {
-  font-family: futura;
+  font-family:futura;
   color: red;
 }
 
@@ -23,25 +75,14 @@ h1 {
   font-size: 68px;
   padding: 30px;
   margin: 0px;
-
 }
 
-h2 {
-  font family: courier;
-  text-transform: uppercase;
-  text-align: center;
 
-}
-
-.nav {
+.navi {
   font-size:20px;
   font-family: Verdana;
   background-color: white;
-  position: fixed;
-  left:0px;
-  top:0px;
-  margin-top:150px;
-
+  float:left;
 }
 
 ul {
@@ -59,8 +100,6 @@ li a{
   background-color: black;
   color: white;
   padding: 20px;
-  margin-top: 10px;
-  margin-left: 20px;
   border-style: solid;
   border-color: white;
   font-family: futura;

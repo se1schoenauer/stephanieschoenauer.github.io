@@ -1,47 +1,18 @@
+html {
+
+ }
+
 body {
-  background-color: white;
-
-  font-family: futura;
-  color: red;
-}
-
-.main-text {
-  width: 820px;
-  margin:auto;
-  margin-top:200px;
-}
-
-p {
-  font-family: futura;
-  color: red;
-}
-
-h1 {
-  text-align: center;
-  border: 10px dashed red;
-  background-color: cyan;
-  font-size: 68px;
-  padding: 30px;
-  margin: 0px;
 
 }
 
-h2 {
-  font family: courier;
-  text-transform: uppercase;
-  text-align: center;
-
-}
 
 .nav {
   font-size:20px;
   font-family: Verdana;
   background-color: white;
-  position: fixed;
-  left:0px;
-  top:0px;
-  margin-top:150px;
-
+  float:left;
+  margin-top: 150px;
 }
 
 ul {
@@ -59,8 +30,7 @@ li a{
   background-color: black;
   color: white;
   padding: 20px;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-top: 20px;
   border-style: solid;
   border-color: white;
   font-family: futura;
@@ -77,4 +47,31 @@ li a:hover {
   font-size: 100px;
   width: 100px;
   height: 100px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 68px;
+  padding: 30px;
+  margin-top: 30px;
+  color: red;
+  line-height: 100px;
+}
+
+
+
+h2 {
+  text-align: left;
+  font-size: 68px;
+  padding: 30px;
+  margin: 0px;
+  color: cyan;
+  float:left;
+  line-height: 100px;
+
+}
+
+.repostimage {
+  padding-top: 300px;
+
 }
